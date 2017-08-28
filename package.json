@@ -1,0 +1,29 @@
+{
+  "name": "mongo-mocha",
+  "version": "1.0.0",
+  "description": "This is getting started with mongo and testing that with mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --exec 'mocha -R min'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulsingh5/mongo-mocha.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahulsingh5/mongo-mocha/issues"
+  },
+  "homepage": "https://github.com/rahulsingh5/mongo-mocha#readme",
+  "dependencies": {
+    "mocha": "^3.5.0",
+    "mongoose": "^4.11.9",
+    "typescript": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/mocha": "^2.2.42",
+    "@types/mongoose": "^4.7.21"
+  }
+}
